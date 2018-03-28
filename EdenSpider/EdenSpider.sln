@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "爬虫客户端", "爬虫�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiderConsole", "SpiderConsole\SpiderConsole.csproj", "{55D54557-B219-4047-8B05-C572874BC543}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据监控", "数据监控", "{1700374B-C8FE-4123-8E9E-7A77D856EA7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL脚本", "SQL脚本", "{76CEAB58-6799-4D66-B9DB-B78E9B9B9E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公用代码库", "公用代码库", "{B2F570EB-598D-4AE1-B1E3-C30F80108412}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据接口", "数据接口", "{7600B7F9-7CA0-4D8A-82F6-BF0FC1F1EA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdenSpider.HttpRequest", "EdenSpider.HttpRequest\EdenSpider.HttpRequest.csproj", "{8011E205-7166-46D2-BFA2-626BFBC7D1E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdenSpiderWebApi", "EdenSpiderWebApi\EdenSpiderWebApi.csproj", "{0CDC078A-DE62-482E-A435-286C9CA57133}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +29,22 @@ Global
 		{55D54557-B219-4047-8B05-C572874BC543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D54557-B219-4047-8B05-C572874BC543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D54557-B219-4047-8B05-C572874BC543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8011E205-7166-46D2-BFA2-626BFBC7D1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8011E205-7166-46D2-BFA2-626BFBC7D1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8011E205-7166-46D2-BFA2-626BFBC7D1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8011E205-7166-46D2-BFA2-626BFBC7D1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDC078A-DE62-482E-A435-286C9CA57133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC078A-DE62-482E-A435-286C9CA57133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC078A-DE62-482E-A435-286C9CA57133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC078A-DE62-482E-A435-286C9CA57133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{55D54557-B219-4047-8B05-C572874BC543} = {A95117FD-4297-4803-8D87-055E9DCB8009}
+		{8011E205-7166-46D2-BFA2-626BFBC7D1E5} = {B2F570EB-598D-4AE1-B1E3-C30F80108412}
+		{0CDC078A-DE62-482E-A435-286C9CA57133} = {7600B7F9-7CA0-4D8A-82F6-BF0FC1F1EA74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36D5D3F8-6885-493F-8D70-616B29830B45}
