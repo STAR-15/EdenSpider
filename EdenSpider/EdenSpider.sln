@@ -19,6 +19,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdenSpider.HttpRequest", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdenSpiderWebApi", "EdenSpiderWebApi\EdenSpiderWebApi.csproj", "{0CDC078A-DE62-482E-A435-286C9CA57133}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{2C417422-AC1F-44DB-BD2D-5E2D3644FDE3}"
+	ProjectSection(SolutionItems) = preProject
+		创建学生表.sql = 创建学生表.sql
+		创建成绩表.sql = 创建成绩表.sql
+		创建教师表.sql = 创建教师表.sql
+		创建数据库.sql = 创建数据库.sql
+		创建课程表.sql = 创建课程表.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +54,7 @@ Global
 		{55D54557-B219-4047-8B05-C572874BC543} = {A95117FD-4297-4803-8D87-055E9DCB8009}
 		{8011E205-7166-46D2-BFA2-626BFBC7D1E5} = {B2F570EB-598D-4AE1-B1E3-C30F80108412}
 		{0CDC078A-DE62-482E-A435-286C9CA57133} = {7600B7F9-7CA0-4D8A-82F6-BF0FC1F1EA74}
+		{2C417422-AC1F-44DB-BD2D-5E2D3644FDE3} = {76CEAB58-6799-4D66-B9DB-B78E9B9B9E49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36D5D3F8-6885-493F-8D70-616B29830B45}
